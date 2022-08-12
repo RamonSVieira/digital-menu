@@ -1,0 +1,68 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 400px;
+  padding: 24px 48px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
+}
+
+header.container h1,
+header.container p {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+header.container span {
+  color: red;
+}
+
+.title-container {
+  text-align: center;
+  background-color: rgb(250, 206, 148);
+  padding: 8px;
+}
+
+.content-container li {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.content-container li h2 {
+  font-size: 1.25rem;
+}
+
+.content-container li :nth-child(2) {
+  justify-self: end;
+}
+
+.content-container li p {
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
